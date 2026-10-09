@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Geist", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --color-ink: #0a1428;
+  --color-ink-2: #46506a;
+  --color-ink-3: #7c859b;
+  --color-line: #e3e8f2;
+  --color-soft: #f5f7fc;
+  --color-blue: #2453e8;
+  --color-blue-deep: #13308f;
+  --color-blue-soft: #eaf0ff;
+  --color-blue-mist: #f3f6ff;
+  --color-bar: #c5ccda;
+  --color-win: #138a4a;
+  --color-fail: #c93a2b;
+}
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 24px;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: #ffffff;
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3 {
+  text-wrap: balance;
+  letter-spacing: -0.03em;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-blue);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+/* Blueprint grid: the lab-notebook texture behind the hero. */
+.blueprint {
+  background-image:
+    linear-gradient(to right, rgb(36 83 232 / 0.07) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(36 83 232 / 0.07) 1px, transparent 1px);
+  background-size: 40px 40px;
+  mask-image: radial-gradient(ellipse 80% 70% at 50% 30%, #000 40%, transparent 100%);
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

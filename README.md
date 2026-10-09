@@ -6,34 +6,26 @@ Core Labs Technologies demo project: the investor page and the launch film.
 
 | Path | What it is |
 | --- | --- |
-| `index.html` | The built page Vercel serves. Generated, do not edit by hand. |
-| `site/index.html` | Page source. Edit this, then run `python3 scripts/build.py`. |
-| `clips/` | Page media: the launch film and the real-robot matchup clips. |
+| `index.html`, `src/` | The page: React, [Motion](https://motion.dev) and Tailwind, built with Vite. Sections live in `src/components/`. |
+| `src/data/bench.ts` | Per-task benchmark numbers the page charts (same values as `scripts/benchmarks.py`). |
+| `src/assets/team/` | Team photos. |
+| `clips/` | Page media: the launch film and the real-robot matchup clips. Copied into the build as `/clips/`. |
 | `video/` | The launch film, built with [Remotion](https://www.remotion.dev). Source in `video/src/Launch.tsx`. |
-| `data/` | Benchmark and RoboArena routing results used on the page. |
-| `scripts/` | Build, analysis and footage scripts. |
+| `data/` | Benchmark and RoboArena routing results. |
+| `scripts/` | Analysis and footage scripts. |
 
 ## Run locally
 
-Open `index.html` in a browser, or serve the folder:
-
 ```bash
-npx serve .
+npm install
+npm run dev
 ```
 
-After editing `site/index.html`, rebuild the root page:
-
-```bash
-python3 scripts/build.py
-```
+`npm run build` writes the production site to `dist/`.
 
 ## Deploy
 
-Hosted on Vercel. Deploy from the repo root with:
-
-```bash
-vercel --prod
-```
+Hosted on Vercel and connected to this repo: every push to `main` deploys to production. `vercel.json` sets the Vite build.
 
 ## Launch film
 
