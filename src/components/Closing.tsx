@@ -117,7 +117,7 @@ const TEAM = [
     name: "Hitarth Khurana",
     photo: hitarth,
     focus: "Robotics in production",
-    points: ["Robotics at Boxbot", "Robotics at Amazon"],
+    points: ["Robotics at Boxbot", "Robotics at Amazon", "Raised $500K+ as part of Waterloo Blockchain"],
   },
   {
     name: "Vansh Wahi",
