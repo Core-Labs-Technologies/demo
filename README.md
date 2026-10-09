@@ -16,18 +16,6 @@
 
 <br>
 
-<a href="https://corelabsdemo.vercel.app"><img src=".github/assets/film.svg" alt="Watch the launch film" width="100%"></a>
-
-## How it works
-
-<img src=".github/assets/product.svg" alt="Route, Enforce, Comply, Recover: every task runs the loop" width="100%">
-
-## Results
-
-Across **3,883 blind real-robot sessions**, the strongest model still loses **1 in 3**. Same robot, same instruction, different winner:
-
-<img src=".github/assets/evidence.jpg" alt="Same robot, same instruction: π0.5 fails, PaliGemma FAST-specialist succeeds" width="100%">
-
 On standard benchmarks, routing beats the best single model **every time**:
 
 <img src=".github/assets/results.svg" alt="Routing vs the best single model on SimplerEnv, RoboCasa and RoboTwin 2.0" width="100%">
