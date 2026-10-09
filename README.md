@@ -1,100 +1,84 @@
-# Core Labs · Deployment Harness for Robotics
+<p align="center">
+  <img src=".github/assets/banner.svg" alt="Core Labs: Taking Robots from the Lab to Production Line" width="100%">
+</p>
 
-**Taking robots from the lab to the production line.**
+<p align="center">
+  <a href="https://corelabsdemo.vercel.app"><img src="https://img.shields.io/badge/Live_demo-corelabsdemo.vercel.app-2453E8?style=for-the-badge" alt="Live demo"></a>
+  <a href="mailto:hitarth2004@gmail.com,anandtejas455@gmail.com,vanshwahi786@gmail.com"><img src="https://img.shields.io/badge/Contact_us-email-0A1428?style=for-the-badge" alt="Contact us"></a>
+</p>
 
-No single robot model wins every task. Core Labs runs each task on the one that does, inside the site's rules, with a record of every decision.
+<p align="center">
+  <img src="https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=white" alt="React">
+  <img src="https://img.shields.io/badge/Vite-8-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite">
+  <img src="https://img.shields.io/badge/Motion-animations-FFF200?style=flat-square&logo=framer&logoColor=black" alt="Motion">
+  <img src="https://img.shields.io/badge/Vercel-deployed-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel">
+</p>
 
-**Live demo: [corelabsdemo.vercel.app](https://corelabsdemo.vercel.app)**
+<br>
 
----
+<a href="https://corelabsdemo.vercel.app"><img src=".github/assets/film.svg" alt="Watch the launch film" width="100%"></a>
 
-## The idea
+## How it works
 
-Robot models are improving fast, but no single model, vendor or release runs a whole site. Core Labs is the deployment harness between a site's work and the models that drive its robots. Every task runs through four stages:
+<img src=".github/assets/product.svg" alt="Route, Enforce, Comply, Recover: every task runs the loop" width="100%">
 
-| Stage | What it does |
-| --- | --- |
-| **Route** | Sends each task to the model with the best measured record on it, not the one that is best on average. |
-| **Enforce** | Checks every action against the site's rules before the robot moves. |
-| **Comply** | Keeps a signed trail of which model ran, what it proposed and what was allowed. |
-| **Recover** | Turns every failure into a rule the whole fleet inherits. |
+## Results
 
-The router switches models only when the lead is statistically real. If no model is confident, the task goes to a human operator.
+Across **3,883 blind real-robot sessions**, the strongest model still loses **1 in 3**. Same robot, same instruction, different winner:
 
-## Key results
+<img src=".github/assets/evidence.jpg" alt="Same robot, same instruction: π0.5 fails, PaliGemma FAST-specialist succeeds" width="100%">
 
-**Real robots.** Across 3,883 blind evaluation sessions on real robot arms (RoboArena), the strongest model, π0.5 from Physical Intelligence, still loses 1 in 3. The demo shows three side-by-side matchups where the same robot gets the same instruction, π0.5 fails and a different model succeeds.
+On standard benchmarks, routing beats the best single model **every time**:
 
-**Standard benchmarks.** Task-level routing applied to published per-task results beats the best single model on all three benchmarks:
-
-| Benchmark | Tasks | Best single model | Its success | With routing | Improvement | Tasks won by another model |
-| --- | ---: | --- | ---: | ---: | ---: | ---: |
-| SimplerEnv (real-to-sim, WidowX) | 7 | GR00T N1.5 | 63.0% | 75.3% | +20% | 4 of 7 |
-| RoboCasa (MuJoCo kitchen) | 24 | GR00T N1.5 | 65.7% | 69.7% | +6% | 9 of 24 |
-| RoboTwin 2.0 (two-arm, randomized) | 50 | π0 | 16.3% | 19.7% | +21% | 18 of 50 |
-
-Improvement is relative: (routed − best single) ÷ best single. See [Methodology](#methodology).
+<img src=".github/assets/results.svg" alt="Routing vs the best single model on SimplerEnv, RoboCasa and RoboTwin 2.0" width="100%">
 
 ## Team
 
-| | |
-| --- | --- |
-| **Tejas Anand** | Applied research at NVIDIA. Multiple patents in computer vision and vision-language models. |
-| **Hitarth Khurana** | Robotics at Boxbot and Amazon. |
-| **Vansh Wahi** | Applied research at Google Gemini. Founding engineer at TensorStax, acquired by Snowflake. |
+<table align="center">
+  <tr>
+    <td align="center" width="300">
+      <img src=".github/assets/team-tejas.png" width="120" alt="Tejas Anand"><br>
+      <b>Tejas Anand</b><br>
+      <sub>Applied research at NVIDIA<br>Patents in vision &amp; VLMs</sub>
+    </td>
+    <td align="center" width="300">
+      <img src=".github/assets/team-hitarth.png" width="120" alt="Hitarth Khurana"><br>
+      <b>Hitarth Khurana</b><br>
+      <sub>Robotics at Boxbot<br>and Amazon</sub>
+    </td>
+    <td align="center" width="300">
+      <img src=".github/assets/team-vansh.png" width="120" alt="Vansh Wahi"><br>
+      <b>Vansh Wahi</b><br>
+      <sub>Applied research at Google Gemini<br>Founding engineer, TensorStax (acq. Snowflake)</sub>
+    </td>
+  </tr>
+</table>
 
-To get in touch, use **Contact us** on the [demo site](https://corelabsdemo.vercel.app).
+<img src=".github/assets/previously.svg" alt="Previously at NVIDIA, Google Gemini, AWS, Snowflake and Boxbot" width="100%">
 
----
+<br>
 
-## Repository
-
-| Path | What it is |
-| --- | --- |
-| `index.html`, `src/` | The demo site: React, [Motion](https://motion.dev) and Tailwind, built with Vite. Page sections live in `src/components/`. |
-| `src/data/bench.ts` | Per-task benchmark numbers the site charts (same values as `scripts/benchmarks.py`). |
-| `src/assets/team/` | Team photos. |
-| `clips/` | Site media: the launch film and the real-robot matchup clips, served at `/clips/`. |
-| `video/` | The launch film, built with [Remotion](https://www.remotion.dev). Source in `video/src/Launch.tsx`. |
-| `data/` | Benchmark and RoboArena routing results. |
-| `scripts/` | Analysis and footage scripts that produce `data/`. |
-
-### Run locally
+<details>
+<summary><b>Run it locally</b></summary>
 
 ```bash
 npm install
 npm run dev
 ```
 
-`npm run build` writes the production site to `dist/`.
+The site lives in `src/` (React, Motion, Tailwind, Vite) with media in `clips/`. Every push to `main` deploys to Vercel. The launch film is a [Remotion](https://www.remotion.dev) project in `video/`.
 
-### Deploy
+</details>
 
-Hosted on Vercel and connected to this repository: every push to `main` deploys to production. `vercel.json` sets the Vite build.
+<details>
+<summary><b>Methodology &amp; sources</b></summary>
 
-### Launch film
+Routed scores send each task to the model with the highest published success on it, so they are an upper bound on what a router picking from the same pool could reach. `scripts/benchmarks.py` reproduces every number and runs a held-out check on RoboCasa; `scripts/roboarena_routing.py` analyzes the real-robot sessions.
 
-The DROID robot footage (about 600 MB) is not committed. Fetch and encode it once, then render:
+[RoboArena](https://huggingface.co/datasets/RoboArena/DataDump_07-17-2026) (MIT) · [DROID](https://droid-dataset.github.io) (CC BY 4.0) · SimplerEnv (NVIDIA Isaac-GR00T) · RoboCasa ([arXiv 2510.01711](https://arxiv.org/abs/2510.01711)) · RoboTwin 2.0 ([arXiv 2506.18088](https://arxiv.org/abs/2506.18088))
 
-```bash
-python3 scripts/fetch_footage.py
-cd video && npm install && npm run render
-```
+</details>
 
-`npm run studio` opens Remotion Studio for live editing. The rendered film lands in `video/out/`; copy a web-sized version to `clips/launch-film.mp4` for the site.
+<br>
 
-## Methodology
-
-- **Benchmarks.** Every per-task number is copied from a primary source and cross-checked against that source's printed averages. "Routed" sends each task to the model with the highest published success on it, so these figures are an upper bound on what a router picking from the same pool could reach. `scripts/benchmarks.py` reproduces them and also runs a held-out check on RoboCasa.
-- **Real robots.** `scripts/roboarena_routing.py` analyzes the RoboArena sessions: in each one, two or more policies attempt the same instruction on the same DROID Franka setup and are scored blind. It expects the dataset metadata in `raw/`, which is not committed.
-
-## Data sources
-
-- Real-robot footage and head-to-head results: [RoboArena](https://huggingface.co/datasets/RoboArena/DataDump_07-17-2026) (MIT) and [DROID](https://droid-dataset.github.io) teleoperated demonstrations (CC BY 4.0).
-- SimplerEnv: results published by NVIDIA (Isaac-GR00T).
-- RoboCasa: per-task results from Kim et al., ICML 2026 ([arXiv 2510.01711](https://arxiv.org/abs/2510.01711)).
-- RoboTwin 2.0: Table 10, randomized-scene setting ([arXiv 2506.18088](https://arxiv.org/abs/2506.18088)).
-
----
-
-© 2026 Core Labs™
+<p align="center"><sub>© 2026 Core Labs™</sub></p>

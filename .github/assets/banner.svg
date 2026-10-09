@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="380" viewBox="0 0 1280 380" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+<defs>
+  <pattern id="g" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#2453e8" stroke-opacity="0.09" stroke-width="1"/></pattern>
+  <radialGradient id="f" cx="50%" cy="45%" r="60%"><stop offset="0.3" stop-color="#fff"/><stop offset="1" stop-color="#000"/></radialGradient>
+  <mask id="m"><rect width="1280" height="380" fill="url(#f)"/></mask>
+  <clipPath id="c"><rect x="1" y="1" width="1278" height="378" rx="22"/></clipPath>
+</defs>
+<rect x="1" y="1" width="1278" height="378" rx="22" fill="#fff" stroke="#e3e8f2" stroke-width="2"/>
+<g clip-path="url(#c)"><rect width="1280" height="380" fill="url(#g)" mask="url(#m)"/></g>
+<text x="640" y="78" text-anchor="middle" font-size="20" font-weight="600" letter-spacing="5" fill="#0a1428">CORE LABS</text>
+<rect x="430" y="104" width="420" height="36" rx="18" fill="#f3f6ff" stroke="#2453e8" stroke-opacity="0.25"/>
+<circle cx="456" cy="122" r="4" fill="#2453e8"/>
+<text x="648" y="127" text-anchor="middle" font-family="SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="500" letter-spacing="2" fill="#2453e8">DEPLOYMENT HARNESS FOR ROBOTICS</text>
+<text x="640" y="222" text-anchor="middle" font-size="64" font-weight="700" letter-spacing="-1.2" fill="#0a1428">Taking Robots from the Lab to</text>
+<text x="640" y="300" text-anchor="middle" font-size="64" font-weight="700" letter-spacing="-1.2" fill="#2453e8">Production Line</text>
+<text x="640" y="346" text-anchor="middle" font-size="19" fill="#46506a">No single robot model wins every task. Core Labs runs each task on the one that does.</text>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="330" viewBox="0 0 1280 330" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"><rect x="1" y="1" width="1278" height="328" rx="22" fill="#fff" stroke="#e3e8f2" stroke-width="2"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5 0 10z" fill="#2453e8"/></marker></defs>
+<rect x="130" y="40" width="80" height="80" rx="20" fill="#2453e8" stroke="#2453e8" stroke-opacity="1"/>
+<g transform="translate(148 58) scale(1.85)" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="5" cy="12" r="2.2"/><circle cx="19" cy="5" r="2.2"/><circle cx="19" cy="12" r="2.2"/><circle cx="19" cy="19" r="2.2"/><path d="M7.2 12h9.6M7 11l9.9-5.2M7 13l9.9 5.2"/></g>
+<text x="170" y="160" text-anchor="middle" font-size="24" font-weight="700" fill="#0a1428">Route</text>
+<text x="170" y="190" text-anchor="middle" font-size="16" fill="#46506a">Every task goes to the</text>
+<text x="170" y="212" text-anchor="middle" font-size="16" fill="#46506a">model that does it best.</text>
+<path d="M230 80H423" stroke="#2453e8" stroke-width="2.5" marker-end="url(#a)"/><rect x="443" y="40" width="80" height="80" rx="20" fill="#f3f6ff" stroke="#2453e8" stroke-opacity="0.25"/>
+<g transform="translate(461 58) scale(1.85)" fill="none" stroke="#2453e8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7.5 3v5.5c0 4.6-3.2 8.3-7.5 9.5-4.3-1.2-7.5-4.9-7.5-9.5V6z"/><path d="M8.8 12.2l2.2 2.2 4.3-4.6"/></g>
+<text x="483" y="160" text-anchor="middle" font-size="24" font-weight="700" fill="#0a1428">Enforce</text>
+<text x="483" y="190" text-anchor="middle" font-size="16" fill="#46506a">Nothing moves until it</text>
+<text x="483" y="212" text-anchor="middle" font-size="16" fill="#46506a">passes the site’s rules.</text>
+<path d="M543 80H736" stroke="#2453e8" stroke-width="2.5" marker-end="url(#a)"/><rect x="756" y="40" width="80" height="80" rx="20" fill="#f3f6ff" stroke="#2453e8" stroke-opacity="0.25"/>
+<g transform="translate(774 58) scale(1.85)" fill="none" stroke="#2453e8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="4.5" y="3" width="15" height="18" rx="2.5"/><path d="M8 8h8M8 12h8M8 16h4.5"/></g>
+<text x="796" y="160" text-anchor="middle" font-size="24" font-weight="700" fill="#0a1428">Comply</text>
+<text x="796" y="190" text-anchor="middle" font-size="16" fill="#46506a">Every decision is</text>
+<text x="796" y="212" text-anchor="middle" font-size="16" fill="#46506a">signed and on the record.</text>
+<path d="M856 80H1049" stroke="#2453e8" stroke-width="2.5" marker-end="url(#a)"/><rect x="1069" y="40" width="80" height="80" rx="20" fill="#f3f6ff" stroke="#2453e8" stroke-opacity="0.25"/>
+<g transform="translate(1087 58) scale(1.85)" fill="none" stroke="#2453e8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12a7.5 7.5 0 0 1 12.8-5.3L19.5 9M19.5 12a7.5 7.5 0 0 1-12.8 5.3L4.5 15"/><path d="M19.5 4.5V9H15M4.5 19.5V15H9"/></g>
+<text x="1109" y="160" text-anchor="middle" font-size="24" font-weight="700" fill="#0a1428">Recover</text>
+<text x="1109" y="190" text-anchor="middle" font-size="16" fill="#46506a">One robot’s failure makes</text>
+<text x="1109" y="212" text-anchor="middle" font-size="16" fill="#46506a">the whole fleet better.</text>
+
+<path d="M1109 236 C 1109 286, 1060 290, 980 290 H 300 C 220 290, 170 286, 170 238" fill="none" stroke="#2453e8" stroke-width="2.5" stroke-dasharray="7 7" marker-end="url(#a)"/>
+<rect x="455" y="276" width="370" height="28" rx="14" fill="#fff"/>
+<text x="640" y="296" text-anchor="middle" font-family="SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" letter-spacing="1" fill="#7c859b">EVERY FAILURE BECOMES A RULE</text>
+</svg>
