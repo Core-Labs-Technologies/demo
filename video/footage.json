@@ -1,0 +1,162 @@
+{
+ "source": "DROID raw 1.0.1 (CC BY 4.0), gs://gresearch/robotics/droid_raw/1.0.1",
+ "note": "Raw MP4s are stamped 60 fps but recorded at 15 Hz; encoded at 30 fps (2x real time), 1080p.",
+ "streams": {
+  "003_ext1": {
+   "gcs": "https://storage.googleapis.com/gresearch/robotics/droid_raw/1.0.1/AUTOLab/success/2023-08-21/Mon_Aug_21_14:03:33_2023/recordings/MP4/22008760.mp4",
+   "episode": "AUTOLab/success/2023-08-21/Mon_Aug_21_14:03:33_2023/",
+   "camera": "ext1"
+  },
+  "003_wrist": {
+   "gcs": "https://storage.googleapis.com/gresearch/robotics/droid_raw/1.0.1/AUTOLab/success/2023-08-21/Mon_Aug_21_14:03:33_2023/recordings/MP4/18026681.mp4",
+   "episode": "AUTOLab/success/2023-08-21/Mon_Aug_21_14:03:33_2023/",
+   "camera": "wrist"
+  },
+  "010_ext1": {
+   "gcs": "https://storage.googleapis.com/gresearch/robotics/droid_raw/1.0.1/AUTOLab/success/2023-09-04/Mon_Sep__4_19:46:59_2023/recordings/MP4/22008760.mp4",
+   "episode": "AUTOLab/success/2023-09-04/Mon_Sep__4_19:46:59_2023/",
+   "camera": "ext1"
+  },
+  "010_wrist": {
+   "gcs": "https://storage.googleapis.com/gresearch/robotics/droid_raw/1.0.1/AUTOLab/success/2023-09-04/Mon_Sep__4_19:46:59_2023/recordings/MP4/18026681.mp4",
+   "episode": "AUTOLab/success/2023-09-04/Mon_Sep__4_19:46:59_2023/",
+   "camera": "wrist"
+  },
+  "015_ext1": {
+   "gcs": "https://storage.googleapis.com/gresearch/robotics/droid_raw/1.0.1/CLVR/success/2023-06-19/Mon_Jun_19_16:52:12_2023/recordings/MP4/20103212.mp4",
+   "episode": "CLVR/success/2023-06-19/Mon_Jun_19_16:52:12_2023/",
+   "camera": "ext1"
+  },
+  "015_wrist": {
+   "gcs": "https://storage.googleapis.com/gresearch/robotics/droid_raw/1.0.1/CLVR/success/2023-06-19/Mon_Jun_19_16:52:12_2023/recordings/MP4/16787047.mp4",
+   "episode": "CLVR/success/2023-06-19/Mon_Jun_19_16:52:12_2023/",
+   "camera": "wrist"
+  },
+  "025_ext2": {
+   "gcs": "https://storage.googleapis.com/gresearch/robotics/droid_raw/1.0.1/GuptaLab/success/2023-05-28/Sun_May_28_18:17:54_2023/recordings/MP4/26638268.mp4",
+   "episode": "GuptaLab/success/2023-05-28/Sun_May_28_18:17:54_2023/",
+   "camera": "ext2"
+  },
+  "051_ext1": {
+   "gcs": "https://storage.googleapis.com/gresearch/robotics/droid_raw/1.0.1/IPRL/success/2023-04-21/Fri_Apr_21_21:10:57_2023/recordings/MP4/21582473.mp4",
+   "episode": "IPRL/success/2023-04-21/Fri_Apr_21_21:10:57_2023/",
+   "camera": "ext1"
+  },
+  "051_wrist": {
+   "gcs": "https://storage.googleapis.com/gresearch/robotics/droid_raw/1.0.1/IPRL/success/2023-04-21/Fri_Apr_21_21:10:57_2023/recordings/MP4/12391924.mp4",
+   "episode": "IPRL/success/2023-04-21/Fri_Apr_21_21:10:57_2023/",
+   "camera": "wrist"
+  },
+  "053_ext1": {
+   "gcs": "https://storage.googleapis.com/gresearch/robotics/droid_raw/1.0.1/IPRL/success/2023-04-21/Fri_Apr_21_21:40:38_2023/recordings/MP4/21582473.mp4",
+   "episode": "IPRL/success/2023-04-21/Fri_Apr_21_21:40:38_2023/",
+   "camera": "ext1"
+  },
+  "053_wrist": {
+   "gcs": "https://storage.googleapis.com/gresearch/robotics/droid_raw/1.0.1/IPRL/success/2023-04-21/Fri_Apr_21_21:40:38_2023/recordings/MP4/12391924.mp4",
+   "episode": "IPRL/success/2023-04-21/Fri_Apr_21_21:40:38_2023/",
+   "camera": "wrist"
+  },
+  "093_wrist": {
+   "gcs": "https://storage.googleapis.com/gresearch/robotics/droid_raw/1.0.1/RAIL/success/2023-04-17/Mon_Apr_17_15:04:37_2023/recordings/MP4/13062452.mp4",
+   "episode": "RAIL/success/2023-04-17/Mon_Apr_17_15:04:37_2023/",
+   "camera": "wrist"
+  },
+  "104_ext1": {
+   "gcs": "https://storage.googleapis.com/gresearch/robotics/droid_raw/1.0.1/REAL/success/2023-12-14/Thu_Dec_14_14:16:47_2023/recordings/MP4/20540549.mp4",
+   "episode": "REAL/success/2023-12-14/Thu_Dec_14_14:16:47_2023/",
+   "camera": "ext1"
+  },
+  "104_wrist": {
+   "gcs": "https://storage.googleapis.com/gresearch/robotics/droid_raw/1.0.1/REAL/success/2023-12-14/Thu_Dec_14_14:16:47_2023/recordings/MP4/11744905.mp4",
+   "episode": "REAL/success/2023-12-14/Thu_Dec_14_14:16:47_2023/",
+   "camera": "wrist"
+  },
+  "106_ext2": {
+   "gcs": "https://storage.googleapis.com/gresearch/robotics/droid_raw/1.0.1/REAL/success/2023-12-14/Thu_Dec_14_14:09:26_2023/recordings/MP4/23960472.mp4",
+   "episode": "REAL/success/2023-12-14/Thu_Dec_14_14:09:26_2023/",
+   "camera": "ext2"
+  },
+  "111_ext2": {
+   "gcs": "https://storage.googleapis.com/gresearch/robotics/droid_raw/1.0.1/REAL/success/2023-09-10/Sun_Sep_10_12:14:08_2023/recordings/MP4/23960472.mp4",
+   "episode": "REAL/success/2023-09-10/Sun_Sep_10_12:14:08_2023/",
+   "camera": "ext2"
+  },
+  "111_wrist": {
+   "gcs": "https://storage.googleapis.com/gresearch/robotics/droid_raw/1.0.1/REAL/success/2023-09-10/Sun_Sep_10_12:14:08_2023/recordings/MP4/11744905.mp4",
+   "episode": "REAL/success/2023-09-10/Sun_Sep_10_12:14:08_2023/",
+   "camera": "wrist"
+  },
+  "114_ext1": {
+   "gcs": "https://storage.googleapis.com/gresearch/robotics/droid_raw/1.0.1/REAL/success/2023-04-06/Thu_Apr__6_16_03_17_2023/recordings/MP4/20540549.mp4",
+   "episode": "REAL/success/2023-04-06/Thu_Apr__6_16_03_17_2023/",
+   "camera": "ext1"
+  },
+  "114_ext2": {
+   "gcs": "https://storage.googleapis.com/gresearch/robotics/droid_raw/1.0.1/REAL/success/2023-04-06/Thu_Apr__6_16_03_17_2023/recordings/MP4/23960472.mp4",
+   "episode": "REAL/success/2023-04-06/Thu_Apr__6_16_03_17_2023/",
+   "camera": "ext2"
+  },
+  "115_ext1": {
+   "gcs": "https://storage.googleapis.com/gresearch/robotics/droid_raw/1.0.1/REAL/success/2023-04-06/Thu_Apr__6_14_30_30_2023/recordings/MP4/20540549.mp4",
+   "episode": "REAL/success/2023-04-06/Thu_Apr__6_14_30_30_2023/",
+   "camera": "ext1"
+  },
+  "115_ext2": {
+   "gcs": "https://storage.googleapis.com/gresearch/robotics/droid_raw/1.0.1/REAL/success/2023-04-06/Thu_Apr__6_14_30_30_2023/recordings/MP4/23960472.mp4",
+   "episode": "REAL/success/2023-04-06/Thu_Apr__6_14_30_30_2023/",
+   "camera": "ext2"
+  },
+  "115_wrist": {
+   "gcs": "https://storage.googleapis.com/gresearch/robotics/droid_raw/1.0.1/REAL/success/2023-04-06/Thu_Apr__6_14_30_30_2023/recordings/MP4/11744905.mp4",
+   "episode": "REAL/success/2023-04-06/Thu_Apr__6_14_30_30_2023/",
+   "camera": "wrist"
+  },
+  "117_ext1": {
+   "gcs": "https://storage.googleapis.com/gresearch/robotics/droid_raw/1.0.1/RPL/success/2023-12-09/Sat_Dec__9_15:17:50_2023/recordings/MP4/24013089.mp4",
+   "episode": "RPL/success/2023-12-09/Sat_Dec__9_15:17:50_2023/",
+   "camera": "ext1"
+  },
+  "117_wrist": {
+   "gcs": "https://storage.googleapis.com/gresearch/robotics/droid_raw/1.0.1/RPL/success/2023-12-09/Sat_Dec__9_15:17:50_2023/recordings/MP4/17225336.mp4",
+   "episode": "RPL/success/2023-12-09/Sat_Dec__9_15:17:50_2023/",
+   "camera": "wrist"
+  },
+  "120_ext1": {
+   "gcs": "https://storage.googleapis.com/gresearch/robotics/droid_raw/1.0.1/RPL/success/2023-06-04/Sun_Jun__4_13:36:51_2023/recordings/MP4/24013089.mp4",
+   "episode": "RPL/success/2023-06-04/Sun_Jun__4_13:36:51_2023/",
+   "camera": "ext1"
+  },
+  "120_ext2": {
+   "gcs": "https://storage.googleapis.com/gresearch/robotics/droid_raw/1.0.1/RPL/success/2023-06-04/Sun_Jun__4_13:36:51_2023/recordings/MP4/25047636.mp4",
+   "episode": "RPL/success/2023-06-04/Sun_Jun__4_13:36:51_2023/",
+   "camera": "ext2"
+  },
+  "126_ext1": {
+   "gcs": "https://storage.googleapis.com/gresearch/robotics/droid_raw/1.0.1/RPL/success/2023-12-04/Mon_Dec__4_15:11:13_2023/recordings/MP4/24013089.mp4",
+   "episode": "RPL/success/2023-12-04/Mon_Dec__4_15:11:13_2023/",
+   "camera": "ext1"
+  },
+  "126_ext2": {
+   "gcs": "https://storage.googleapis.com/gresearch/robotics/droid_raw/1.0.1/RPL/success/2023-12-04/Mon_Dec__4_15:11:13_2023/recordings/MP4/25047636.mp4",
+   "episode": "RPL/success/2023-12-04/Mon_Dec__4_15:11:13_2023/",
+   "camera": "ext2"
+  },
+  "126_wrist": {
+   "gcs": "https://storage.googleapis.com/gresearch/robotics/droid_raw/1.0.1/RPL/success/2023-12-04/Mon_Dec__4_15:11:13_2023/recordings/MP4/17225336.mp4",
+   "episode": "RPL/success/2023-12-04/Mon_Dec__4_15:11:13_2023/",
+   "camera": "wrist"
+  },
+  "141_wrist": {
+   "gcs": "https://storage.googleapis.com/gresearch/robotics/droid_raw/1.0.1/WEIRD/success/2024-01-08/Mon_Jan__8_17:23:46_2024/recordings/MP4/13263313.mp4",
+   "episode": "WEIRD/success/2024-01-08/Mon_Jan__8_17:23:46_2024/",
+   "camera": "wrist"
+  },
+  "145_wrist": {
+   "gcs": "https://storage.googleapis.com/gresearch/robotics/droid_raw/1.0.1/WEIRD/success/2024-01-22/Mon_Jan_22_03:17:51_2024/recordings/MP4/13263313.mp4",
+   "episode": "WEIRD/success/2024-01-22/Mon_Jan_22_03:17:51_2024/",
+   "camera": "wrist",
+   "input_seconds": 50
+  }
+ }
+}

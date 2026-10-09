@@ -1,0 +1,473 @@
+{
+ "source": "RoboArena/DataDump_07-17-2026 (huggingface.co/datasets/RoboArena/DataDump_07-17-2026), MIT license",
+ "policies": {
+  "pi05_droid": "π0.5-DROID",
+  "pi0_fast_droid": "π0-FAST-DROID",
+  "pi0_droid": "π0-DROID",
+  "paligemma_fast_specialist_droid": "PaliGemma-FAST-specialist",
+  "paligemma_fast_droid": "PaliGemma-FAST",
+  "paligemma_vq_droid": "PaliGemma-VQ",
+  "paligemma_diffusion_droid": "PaliGemma-Diffusion"
+ },
+ "n_sessions": 3850,
+ "n_episodes": 9289,
+ "categories": {
+  "Pick & place": 1692,
+  "Grasp & lift": 363,
+  "Cloth & deformables": 345,
+  "Multi-step": 265,
+  "Open / close": 257,
+  "Reorient": 238,
+  "Push, press & touch": 225,
+  "Other": 192,
+  "Tool use & pouring": 174,
+  "Stacking": 99
+ },
+ "table": {
+  "Pick & place": {
+   "paligemma_vq_droid": {
+    "n": 635,
+    "progress": 0.44210236220472443,
+    "success": 0.12125984251968504
+   },
+   "pi05_droid": {
+    "n": 288,
+    "progress": 0.5193402777777778,
+    "success": 0.2222222222222222
+   },
+   "paligemma_fast_droid": {
+    "n": 731,
+    "progress": 0.4243707250341997,
+    "success": 0.1409028727770178
+   },
+   "paligemma_diffusion_droid": {
+    "n": 621,
+    "progress": 0.43605475040257646,
+    "success": 0.13365539452495975
+   },
+   "paligemma_fast_specialist_droid": {
+    "n": 717,
+    "progress": 0.4530195258019526,
+    "success": 0.14783821478382148
+   },
+   "pi0_fast_droid": {
+    "n": 634,
+    "progress": 0.4667902208201893,
+    "success": 0.16876971608832808
+   },
+   "pi0_droid": {
+    "n": 742,
+    "progress": 0.3678234501347709,
+    "success": 0.10107816711590296
+   }
+  },
+  "All": {
+   "paligemma_vq_droid": {
+    "n": 1360,
+    "progress": 0.4214816176470588,
+    "success": 0.11911764705882352
+   },
+   "pi05_droid": {
+    "n": 711,
+    "progress": 0.4721940928270042,
+    "success": 0.16033755274261605
+   },
+   "paligemma_diffusion_droid": {
+    "n": 1344,
+    "progress": 0.4086830357142857,
+    "success": 0.11086309523809523
+   },
+   "pi0_fast_droid": {
+    "n": 1338,
+    "progress": 0.45555680119581465,
+    "success": 0.1554559043348281
+   },
+   "paligemma_fast_droid": {
+    "n": 1498,
+    "progress": 0.4217570093457944,
+    "success": 0.1268357810413885
+   },
+   "paligemma_fast_specialist_droid": {
+    "n": 1496,
+    "progress": 0.42934157754010693,
+    "success": 0.13101604278074866
+   },
+   "pi0_droid": {
+    "n": 1542,
+    "progress": 0.35052853437094683,
+    "success": 0.07587548638132295
+   }
+  },
+  "Grasp & lift": {
+   "paligemma_diffusion_droid": {
+    "n": 113,
+    "progress": 0.3929203539823009,
+    "success": 0.13274336283185842
+   },
+   "pi0_fast_droid": {
+    "n": 117,
+    "progress": 0.44487179487179485,
+    "success": 0.20512820512820512
+   },
+   "paligemma_vq_droid": {
+    "n": 120,
+    "progress": 0.36325,
+    "success": 0.15833333333333333
+   },
+   "paligemma_fast_specialist_droid": {
+    "n": 108,
+    "progress": 0.3592592592592593,
+    "success": 0.14814814814814814
+   },
+   "pi0_droid": {
+    "n": 113,
+    "progress": 0.278141592920354,
+    "success": 0.017699115044247787
+   },
+   "paligemma_fast_droid": {
+    "n": 96,
+    "progress": 0.35885416666666664,
+    "success": 0.15625
+   },
+   "pi05_droid": {
+    "n": 82,
+    "progress": 0.400609756097561,
+    "success": 0.13414634146341464
+   }
+  },
+  "Cloth & deformables": {
+   "pi0_fast_droid": {
+    "n": 135,
+    "progress": 0.5083703703703704,
+    "success": 0.16296296296296298
+   },
+   "paligemma_fast_specialist_droid": {
+    "n": 133,
+    "progress": 0.4343609022556391,
+    "success": 0.16541353383458646
+   },
+   "paligemma_vq_droid": {
+    "n": 134,
+    "progress": 0.43671641791044774,
+    "success": 0.12686567164179105
+   },
+   "paligemma_fast_droid": {
+    "n": 130,
+    "progress": 0.46692307692307694,
+    "success": 0.13076923076923078
+   },
+   "pi0_droid": {
+    "n": 117,
+    "progress": 0.37735042735042734,
+    "success": 0.06837606837606838
+   },
+   "paligemma_diffusion_droid": {
+    "n": 137,
+    "progress": 0.43394160583941604,
+    "success": 0.08759124087591241
+   },
+   "pi05_droid": {
+    "n": 64,
+    "progress": 0.59453125,
+    "success": 0.15625
+   }
+  },
+  "Other": {
+   "pi0_fast_droid": {
+    "n": 79,
+    "progress": 0.2669620253164557,
+    "success": 0.06329113924050633
+   },
+   "pi05_droid": {
+    "n": 26,
+    "progress": 0.2980769230769231,
+    "success": 0.11538461538461539
+   },
+   "pi0_droid": {
+    "n": 86,
+    "progress": 0.29267441860465115,
+    "success": 0.023255813953488372
+   },
+   "paligemma_vq_droid": {
+    "n": 77,
+    "progress": 0.31805194805194803,
+    "success": 0.05194805194805195
+   },
+   "paligemma_diffusion_droid": {
+    "n": 88,
+    "progress": 0.22397727272727272,
+    "success": 0.022727272727272728
+   },
+   "paligemma_fast_specialist_droid": {
+    "n": 87,
+    "progress": 0.36586206896551726,
+    "success": 0.11494252873563218
+   },
+   "paligemma_fast_droid": {
+    "n": 82,
+    "progress": 0.3258536585365854,
+    "success": 0.07317073170731707
+   }
+  },
+  "Reorient": {
+   "paligemma_fast_specialist_droid": {
+    "n": 68,
+    "progress": 0.5026470588235294,
+    "success": 0.17647058823529413
+   },
+   "pi05_droid": {
+    "n": 50,
+    "progress": 0.4464,
+    "success": 0.16
+   },
+   "paligemma_fast_droid": {
+    "n": 76,
+    "progress": 0.5223684210526316,
+    "success": 0.17105263157894737
+   },
+   "paligemma_diffusion_droid": {
+    "n": 61,
+    "progress": 0.4786885245901639,
+    "success": 0.09836065573770492
+   },
+   "pi0_fast_droid": {
+    "n": 66,
+    "progress": 0.4753030303030303,
+    "success": 0.10606060606060606
+   },
+   "pi0_droid": {
+    "n": 71,
+    "progress": 0.3190140845070423,
+    "success": 0.028169014084507043
+   },
+   "paligemma_vq_droid": {
+    "n": 68,
+    "progress": 0.46397058823529413,
+    "success": 0.10294117647058823
+   }
+  },
+  "Multi-step": {
+   "paligemma_fast_droid": {
+    "n": 126,
+    "progress": 0.42904761904761907,
+    "success": 0.07936507936507936
+   },
+   "pi0_droid": {
+    "n": 121,
+    "progress": 0.3569421487603306,
+    "success": 0.08264462809917356
+   },
+   "paligemma_fast_specialist_droid": {
+    "n": 119,
+    "progress": 0.4464705882352941,
+    "success": 0.06722689075630252
+   },
+   "pi0_fast_droid": {
+    "n": 56,
+    "progress": 0.5064285714285715,
+    "success": 0.14285714285714285
+   },
+   "paligemma_diffusion_droid": {
+    "n": 63,
+    "progress": 0.4192063492063492,
+    "success": 0.06349206349206349
+   },
+   "paligemma_vq_droid": {
+    "n": 59,
+    "progress": 0.41355932203389834,
+    "success": 0.03389830508474576
+   },
+   "pi05_droid": {
+    "n": 44,
+    "progress": 0.47045454545454546,
+    "success": 0.09090909090909091
+   }
+  },
+  "Open / close": {
+   "paligemma_fast_droid": {
+    "n": 89,
+    "progress": 0.35168539325842696,
+    "success": 0.12359550561797752
+   },
+   "pi0_droid": {
+    "n": 94,
+    "progress": 0.3019148936170213,
+    "success": 0.05319148936170213
+   },
+   "paligemma_diffusion_droid": {
+    "n": 95,
+    "progress": 0.3173684210526316,
+    "success": 0.07368421052631578
+   },
+   "paligemma_fast_specialist_droid": {
+    "n": 88,
+    "progress": 0.3721590909090909,
+    "success": 0.07954545454545454
+   },
+   "paligemma_vq_droid": {
+    "n": 101,
+    "progress": 0.3602970297029703,
+    "success": 0.1485148514851485
+   },
+   "pi0_fast_droid": {
+    "n": 93,
+    "progress": 0.43172043010752686,
+    "success": 0.15053763440860216
+   },
+   "pi05_droid": {
+    "n": 45,
+    "progress": 0.39022222222222225,
+    "success": 0.1111111111111111
+   }
+  },
+  "Push, press & touch": {
+   "pi0_fast_droid": {
+    "n": 63,
+    "progress": 0.43492063492063493,
+    "success": 0.12698412698412698
+   },
+   "pi0_droid": {
+    "n": 85,
+    "progress": 0.40352941176470586,
+    "success": 0.07058823529411765
+   },
+   "paligemma_diffusion_droid": {
+    "n": 71,
+    "progress": 0.46830985915492956,
+    "success": 0.14084507042253522
+   },
+   "paligemma_fast_specialist_droid": {
+    "n": 71,
+    "progress": 0.42577464788732394,
+    "success": 0.11267605633802817
+   },
+   "paligemma_vq_droid": {
+    "n": 77,
+    "progress": 0.4396103896103896,
+    "success": 0.15584415584415584
+   },
+   "paligemma_fast_droid": {
+    "n": 66,
+    "progress": 0.4809090909090909,
+    "success": 0.15151515151515152
+   },
+   "pi05_droid": {
+    "n": 61,
+    "progress": 0.4344262295081967,
+    "success": 0.08196721311475409
+   }
+  },
+  "Stacking": {
+   "paligemma_fast_specialist_droid": {
+    "n": 33,
+    "progress": 0.4084848484848485,
+    "success": 0.06060606060606061
+   },
+   "pi0_droid": {
+    "n": 37,
+    "progress": 0.4281081081081081,
+    "success": 0.13513513513513514
+   },
+   "paligemma_vq_droid": {
+    "n": 29,
+    "progress": 0.47551724137931034,
+    "success": 0.13793103448275862
+   },
+   "pi0_fast_droid": {
+    "n": 35,
+    "progress": 0.5308571428571428,
+    "success": 0.2571428571428571
+   },
+   "pi05_droid": {
+    "n": 21,
+    "progress": 0.5533333333333333,
+    "success": 0.19047619047619047
+   },
+   "paligemma_fast_droid": {
+    "n": 37,
+    "progress": 0.4745135135135135,
+    "success": 0.05405405405405406
+   },
+   "paligemma_diffusion_droid": {
+    "n": 33,
+    "progress": 0.5109090909090909,
+    "success": 0.15151515151515152
+   }
+  },
+  "Tool use & pouring": {
+   "pi0_droid": {
+    "n": 76,
+    "progress": 0.29578947368421055,
+    "success": 0.02631578947368421
+   },
+   "pi0_fast_droid": {
+    "n": 60,
+    "progress": 0.43266666666666664,
+    "success": 0.06666666666666667
+   },
+   "pi05_droid": {
+    "n": 30,
+    "progress": 0.2936666666666667,
+    "success": 0
+   },
+   "paligemma_diffusion_droid": {
+    "n": 62,
+    "progress": 0.307258064516129,
+    "success": 0.08064516129032258
+   },
+   "paligemma_fast_droid": {
+    "n": 65,
+    "progress": 0.39,
+    "success": 0.046153846153846156
+   },
+   "paligemma_fast_specialist_droid": {
+    "n": 72,
+    "progress": 0.3515277777777778,
+    "success": 0.06944444444444445
+   },
+   "paligemma_vq_droid": {
+    "n": 60,
+    "progress": 0.43166666666666664,
+    "success": 0.08333333333333333
+   }
+  }
+ },
+ "full_data_route": {
+  "Pick & place": "pi05_droid",
+  "Grasp & lift": "pi0_fast_droid",
+  "Cloth & deformables": "pi05_droid",
+  "Other": "paligemma_fast_specialist_droid",
+  "Reorient": "paligemma_fast_droid",
+  "Multi-step": "pi0_fast_droid",
+  "Open / close": "pi0_fast_droid",
+  "Push, press & touch": "paligemma_fast_droid",
+  "Stacking": "pi0_fast_droid",
+  "Tool use & pouring": "pi0_fast_droid"
+ },
+ "full_data_best_single": "pi05_droid",
+ "experiment_progress": {
+  "metric": "progress",
+  "splits": 1000,
+  "routed_mean": 0.4802182310452336,
+  "single_mean": 0.4673317380423267,
+  "gain_mean": 0.012886493002906865,
+  "gain_p05": -0.008350093787100998,
+  "gain_p95": 0.03998832844224437,
+  "share_positive": 0.832
+ },
+ "experiment_success": {
+  "metric": "success",
+  "splits": 1000,
+  "routed_mean": 0.16192675674937734,
+  "single_mean": 0.15345176775738698,
+  "gain_mean": 0.008474988991990355,
+  "gain_p05": -0.014029063506674683,
+  "gain_p95": 0.03383618175174152,
+  "share_positive": 0.712
+ },
+ "head_to_head_full_data": {
+  "routed_wins": 15,
+  "default_wins": 21,
+  "ties": 8
+ }
+}
