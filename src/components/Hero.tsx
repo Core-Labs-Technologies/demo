@@ -41,24 +41,22 @@ function RouterCard() {
           </span>
           Routing decision
         </span>
-        <span className="font-mono text-[11px] text-ink-3">{ex.source}</span>
       </div>
 
-      <div className="mb-1 font-mono text-[11px] uppercase tracking-[0.1em] text-ink-3">Work order</div>
-      <div className="mb-5 h-[3.4rem] sm:h-[2.2rem]">
-        <AnimatePresence mode="wait">
-          <motion.div
-            key={ex.task}
-            initial={{ opacity: 0, y: 8 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -8 }}
-            transition={{ duration: 0.3 }}
-            className="text-[1.3rem] font-semibold leading-tight tracking-tight"
-          >
-            “{ex.task}”
-          </motion.div>
-        </AnimatePresence>
+      {/* Task, source and candidates swap together, so they never mix two examples. */}
+      <AnimatePresence mode="wait" initial={false}>
+      <motion.div
+        key={i}
+        initial={{ opacity: 0, y: 8 }}
+        animate={{ opacity: 1, y: 0 }}
+        exit={{ opacity: 0, y: -8 }}
+        transition={{ duration: 0.25 }}
+      >
+      <div className="mb-1 flex justify-between gap-3 font-mono text-[11px] uppercase tracking-[0.1em] text-ink-3">
+        <span>Work order</span>
+        <span className="normal-case tracking-normal">{ex.source}</span>
       </div>
+      <div className="mb-5 min-h-[3.4rem] text-[1.3rem] font-semibold leading-tight tracking-tight sm:min-h-[2.2rem]">“{ex.task}”</div>
 
       <div className="mb-2 font-mono text-[11px] uppercase tracking-[0.1em] text-ink-3">Candidate models</div>
       <ul className="mb-5 grid gap-2">
@@ -87,6 +85,8 @@ function RouterCard() {
           );
         })}
       </ul>
+      </motion.div>
+      </AnimatePresence>
 
       <ol className="grid grid-cols-4 gap-1.5">
         {STAGES.map((s, j) => {
