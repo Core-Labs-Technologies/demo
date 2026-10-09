@@ -1,0 +1,1102 @@
+{
+ "robocasa": {
+  "tasks": [
+   "Close Double Door",
+   "Close Drawer",
+   "Close Single Door",
+   "Coffee Press Button",
+   "Coffee Serve Mug",
+   "Coffee Setup Mug",
+   "Open Double Door",
+   "Open Drawer",
+   "Open Single Door",
+   "PnP Cab → Counter",
+   "PnP Counter → Cab",
+   "PnP Counter → Microwave",
+   "PnP Counter → Sink",
+   "PnP Counter → Stove",
+   "PnP Microwave → Counter",
+   "PnP Sink → Counter",
+   "PnP Stove → Counter",
+   "Turn Off Microwave",
+   "Turn Off Sink Faucet",
+   "Turn Off Stove",
+   "Turn On Microwave",
+   "Turn On Sink Faucet",
+   "Turn On Stove",
+   "Turn Sink Spout"
+  ],
+  "skill": {
+   "Close Double Door": "Doors",
+   "Close Single Door": "Doors",
+   "Open Double Door": "Doors",
+   "Open Single Door": "Doors",
+   "Close Drawer": "Drawers",
+   "Open Drawer": "Drawers",
+   "Coffee Press Button": "Buttons",
+   "Turn On Microwave": "Buttons",
+   "Turn Off Microwave": "Buttons",
+   "Coffee Serve Mug": "Insertion",
+   "Coffee Setup Mug": "Insertion",
+   "Turn On Stove": "Knobs",
+   "Turn Off Stove": "Knobs",
+   "Turn On Sink Faucet": "Levers",
+   "Turn Off Sink Faucet": "Levers",
+   "Turn Sink Spout": "Levers"
+  },
+  "regimes": {
+   "30": {
+    "models": {
+     "GR00T N1.5": [
+      44,
+      96,
+      98,
+      70,
+      64,
+      28,
+      80,
+      46,
+      64,
+      28,
+      36,
+      30,
+      28,
+      38,
+      24,
+      40,
+      22,
+      62,
+      72,
+      10,
+      44,
+      60,
+      34,
+      38
+     ],
+     "π0": [
+      68,
+      94,
+      94,
+      66,
+      80,
+      20,
+      92,
+      44,
+      58,
+      14,
+      32,
+      26,
+      32,
+      14,
+      16,
+      22,
+      10,
+      64,
+      72,
+      14,
+      58,
+      80,
+      26,
+      50
+     ],
+     "π0-FAST": [
+      44,
+      84,
+      84,
+      20,
+      44,
+      2,
+      26,
+      36,
+      44,
+      12,
+      8,
+      10,
+      2,
+      10,
+      4,
+      12,
+      18,
+      68,
+      48,
+      0,
+      52,
+      40,
+      12,
+      36
+     ]
+    },
+    "averages": {
+     "GR00T N1.5": 48.166666666666664,
+     "π0": 47.75,
+     "π0-FAST": 29.833333333333332
+    },
+    "best_single": "GR00T N1.5",
+    "best_single_avg": 48.166666666666664,
+    "routed_avg": 52.833333333333336,
+    "gain": 4.666666666666671,
+    "routed": [
+     68,
+     96,
+     98,
+     70,
+     80,
+     28,
+     92,
+     46,
+     64,
+     28,
+     36,
+     30,
+     32,
+     38,
+     24,
+     40,
+     22,
+     68,
+     72,
+     14,
+     58,
+     80,
+     34,
+     50
+    ],
+    "winners": [
+     [
+      "π0"
+     ],
+     [
+      "GR00T N1.5"
+     ],
+     [
+      "GR00T N1.5"
+     ],
+     [
+      "GR00T N1.5"
+     ],
+     [
+      "π0"
+     ],
+     [
+      "GR00T N1.5"
+     ],
+     [
+      "π0"
+     ],
+     [
+      "GR00T N1.5"
+     ],
+     [
+      "GR00T N1.5"
+     ],
+     [
+      "GR00T N1.5"
+     ],
+     [
+      "GR00T N1.5"
+     ],
+     [
+      "GR00T N1.5"
+     ],
+     [
+      "π0"
+     ],
+     [
+      "GR00T N1.5"
+     ],
+     [
+      "GR00T N1.5"
+     ],
+     [
+      "GR00T N1.5"
+     ],
+     [
+      "GR00T N1.5"
+     ],
+     [
+      "π0-FAST"
+     ],
+     [
+      "GR00T N1.5",
+      "π0"
+     ],
+     [
+      "π0"
+     ],
+     [
+      "π0"
+     ],
+     [
+      "π0"
+     ],
+     [
+      "GR00T N1.5"
+     ],
+     [
+      "π0"
+     ]
+    ],
+    "sole_wins": {
+     "GR00T N1.5": 14,
+     "π0": 8,
+     "π0-FAST": 1
+    },
+    "wins_incl_ties": {
+     "GR00T N1.5": 15,
+     "π0": 9,
+     "π0-FAST": 1
+    }
+   },
+   "100": {
+    "models": {
+     "GR00T N1.5": [
+      86,
+      96,
+      94,
+      82,
+      72,
+      34,
+      92,
+      58,
+      58,
+      42,
+      54,
+      36,
+      66,
+      60,
+      44,
+      52,
+      60,
+      86,
+      86,
+      14,
+      58,
+      90,
+      56,
+      58
+     ],
+     "π0": [
+      86,
+      94,
+      98,
+      80,
+      66,
+      32,
+      90,
+      56,
+      64,
+      22,
+      44,
+      30,
+      44,
+      32,
+      20,
+      24,
+      46,
+      84,
+      86,
+      10,
+      82,
+      82,
+      68,
+      68
+     ],
+     "π0-FAST": [
+      84,
+      96,
+      90,
+      82,
+      66,
+      34,
+      68,
+      58,
+      70,
+      22,
+      58,
+      32,
+      46,
+      50,
+      38,
+      56,
+      62,
+      98,
+      76,
+      18,
+      68,
+      66,
+      52,
+      54
+     ]
+    },
+    "averages": {
+     "GR00T N1.5": 63.916666666666664,
+     "π0": 58.666666666666664,
+     "π0-FAST": 60.166666666666664
+    },
+    "best_single": "GR00T N1.5",
+    "best_single_avg": 63.916666666666664,
+    "routed_avg": 67.58333333333333,
+    "gain": 3.6666666666666643,
+    "routed": [
+     86,
+     96,
+     98,
+     82,
+     72,
+     34,
+     92,
+     58,
+     70,
+     42,
+     58,
+     36,
+     66,
+     60,
+     44,
+     56,
+     62,
+     98,
+     86,
+     18,
+     82,
+     90,
+     68,
+     68
+    ],
+    "winners": [
+     [
+      "GR00T N1.5",
+      "π0"
+     ],
+     [
+      "GR00T N1.5",
+      "π0-FAST"
+     ],
+     [
+      "π0"
+     ],
+     [
+      "GR00T N1.5",
+      "π0-FAST"
+     ],
+     [
+      "GR00T N1.5"
+     ],
+     [
+      "GR00T N1.5",
+      "π0-FAST"
+     ],
+     [
+      "GR00T N1.5"
+     ],
+     [
+      "GR00T N1.5",
+      "π0-FAST"
+     ],
+     [
+      "π0-FAST"
+     ],
+     [
+      "GR00T N1.5"
+     ],
+     [
+      "π0-FAST"
+     ],
+     [
+      "GR00T N1.5"
+     ],
+     [
+      "GR00T N1.5"
+     ],
+     [
+      "GR00T N1.5"
+     ],
+     [
+      "GR00T N1.5"
+     ],
+     [
+      "π0-FAST"
+     ],
+     [
+      "π0-FAST"
+     ],
+     [
+      "π0-FAST"
+     ],
+     [
+      "GR00T N1.5",
+      "π0"
+     ],
+     [
+      "π0-FAST"
+     ],
+     [
+      "π0"
+     ],
+     [
+      "GR00T N1.5"
+     ],
+     [
+      "π0"
+     ],
+     [
+      "π0"
+     ]
+    ],
+    "sole_wins": {
+     "GR00T N1.5": 8,
+     "π0": 4,
+     "π0-FAST": 6
+    },
+    "wins_incl_ties": {
+     "GR00T N1.5": 14,
+     "π0": 6,
+     "π0-FAST": 10
+    }
+   },
+   "300": {
+    "models": {
+     "GR00T N1.5": [
+      80,
+      96,
+      98,
+      90,
+      58,
+      24,
+      82,
+      74,
+      78,
+      54,
+      54,
+      32,
+      58,
+      66,
+      50,
+      60,
+      68,
+      94,
+      92,
+      28,
+      44,
+      86,
+      32,
+      78
+     ],
+     "π0": [
+      86,
+      96,
+      96,
+      88,
+      64,
+      38,
+      84,
+      62,
+      70,
+      18,
+      46,
+      18,
+      58,
+      60,
+      24,
+      66,
+      44,
+      96,
+      94,
+      22,
+      70,
+      86,
+      42,
+      72
+     ],
+     "π0-FAST": [
+      78,
+      94,
+      72,
+      90,
+      68,
+      38,
+      78,
+      68,
+      66,
+      30,
+      48,
+      20,
+      56,
+      64,
+      46,
+      62,
+      60,
+      96,
+      94,
+      22,
+      88,
+      74,
+      38,
+      76
+     ]
+    },
+    "averages": {
+     "GR00T N1.5": 65.66666666666667,
+     "π0": 62.5,
+     "π0-FAST": 63.583333333333336
+    },
+    "best_single": "GR00T N1.5",
+    "best_single_avg": 65.66666666666667,
+    "routed_avg": 69.66666666666667,
+    "gain": 4.0,
+    "routed": [
+     86,
+     96,
+     98,
+     90,
+     68,
+     38,
+     84,
+     74,
+     78,
+     54,
+     54,
+     32,
+     58,
+     66,
+     50,
+     66,
+     68,
+     96,
+     94,
+     28,
+     88,
+     86,
+     42,
+     78
+    ],
+    "winners": [
+     [
+      "π0"
+     ],
+     [
+      "GR00T N1.5",
+      "π0"
+     ],
+     [
+      "GR00T N1.5"
+     ],
+     [
+      "GR00T N1.5",
+      "π0-FAST"
+     ],
+     [
+      "π0-FAST"
+     ],
+     [
+      "π0",
+      "π0-FAST"
+     ],
+     [
+      "π0"
+     ],
+     [
+      "GR00T N1.5"
+     ],
+     [
+      "GR00T N1.5"
+     ],
+     [
+      "GR00T N1.5"
+     ],
+     [
+      "GR00T N1.5"
+     ],
+     [
+      "GR00T N1.5"
+     ],
+     [
+      "GR00T N1.5",
+      "π0"
+     ],
+     [
+      "GR00T N1.5"
+     ],
+     [
+      "GR00T N1.5"
+     ],
+     [
+      "π0"
+     ],
+     [
+      "GR00T N1.5"
+     ],
+     [
+      "π0",
+      "π0-FAST"
+     ],
+     [
+      "π0",
+      "π0-FAST"
+     ],
+     [
+      "GR00T N1.5"
+     ],
+     [
+      "π0-FAST"
+     ],
+     [
+      "GR00T N1.5",
+      "π0"
+     ],
+     [
+      "π0"
+     ],
+     [
+      "GR00T N1.5"
+     ]
+    ],
+    "sole_wins": {
+     "GR00T N1.5": 11,
+     "π0": 4,
+     "π0-FAST": 2
+    },
+    "wins_incl_ties": {
+     "GR00T N1.5": 15,
+     "π0": 10,
+     "π0-FAST": 6
+    }
+   }
+  },
+  "held_out": {
+   "100->300": {
+    "picks": [
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "π0",
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "π0-FAST",
+     "GR00T N1.5",
+     "π0-FAST",
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "π0-FAST",
+     "π0-FAST",
+     "π0-FAST",
+     "GR00T N1.5",
+     "π0-FAST",
+     "π0",
+     "GR00T N1.5",
+     "π0",
+     "π0"
+    ],
+    "default": "GR00T N1.5",
+    "routed_on_test": 65.66666666666667,
+    "default_on_test": 65.66666666666667,
+    "best_single_on_test": 65.66666666666667,
+    "gain_vs_default": 0.0,
+    "gain_vs_best_test": 0.0
+   },
+   "300->100": {
+    "picks": [
+     "π0",
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "π0-FAST",
+     "π0",
+     "π0",
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "π0",
+     "GR00T N1.5",
+     "π0",
+     "π0",
+     "GR00T N1.5",
+     "π0-FAST",
+     "GR00T N1.5",
+     "π0",
+     "GR00T N1.5"
+    ],
+    "default": "GR00T N1.5",
+    "routed_on_test": 63.166666666666664,
+    "default_on_test": 63.916666666666664,
+    "best_single_on_test": 63.916666666666664,
+    "gain_vs_default": -0.75,
+    "gain_vs_best_test": -0.75
+   },
+   "30->100": {
+    "picks": [
+     "π0",
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "π0",
+     "GR00T N1.5",
+     "π0",
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "π0",
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "π0-FAST",
+     "GR00T N1.5",
+     "π0",
+     "π0",
+     "π0",
+     "GR00T N1.5",
+     "π0"
+    ],
+    "default": "GR00T N1.5",
+    "routed_on_test": 64.08333333333333,
+    "default_on_test": 63.916666666666664,
+    "best_single_on_test": 63.916666666666664,
+    "gain_vs_default": 0.1666666666666643,
+    "gain_vs_best_test": 0.1666666666666643
+   },
+   "100->30": {
+    "picks": [
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "π0",
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "π0-FAST",
+     "GR00T N1.5",
+     "π0-FAST",
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "π0-FAST",
+     "π0-FAST",
+     "π0-FAST",
+     "GR00T N1.5",
+     "π0-FAST",
+     "π0",
+     "GR00T N1.5",
+     "π0",
+     "π0"
+    ],
+    "default": "GR00T N1.5",
+    "routed_on_test": 45.25,
+    "default_on_test": 48.166666666666664,
+    "best_single_on_test": 48.166666666666664,
+    "gain_vs_default": -2.9166666666666643,
+    "gain_vs_best_test": -2.9166666666666643
+   },
+   "30->300": {
+    "picks": [
+     "π0",
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "π0",
+     "GR00T N1.5",
+     "π0",
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "π0",
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "π0-FAST",
+     "GR00T N1.5",
+     "π0",
+     "π0",
+     "π0",
+     "GR00T N1.5",
+     "π0"
+    ],
+    "default": "GR00T N1.5",
+    "routed_on_test": 66.91666666666667,
+    "default_on_test": 65.66666666666667,
+    "best_single_on_test": 65.66666666666667,
+    "gain_vs_default": 1.25,
+    "gain_vs_best_test": 1.25
+   },
+   "300->30": {
+    "picks": [
+     "π0",
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "π0-FAST",
+     "π0",
+     "π0",
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "GR00T N1.5",
+     "π0",
+     "GR00T N1.5",
+     "π0",
+     "π0",
+     "GR00T N1.5",
+     "π0-FAST",
+     "GR00T N1.5",
+     "π0",
+     "GR00T N1.5"
+    ],
+    "default": "GR00T N1.5",
+    "routed_on_test": 47.833333333333336,
+    "default_on_test": 48.166666666666664,
+    "best_single_on_test": 48.166666666666664,
+    "gain_vs_default": -0.3333333333333286,
+    "gain_vs_best_test": -0.3333333333333286
+   }
+  }
+ },
+ "simpler": {
+  "tasks": [
+   "Spoon on towel",
+   "Carrot on plate",
+   "Eggplant in basket",
+   "Stack cube",
+   "Eggplant in sink**",
+   "Close drawer**",
+   "Open drawer**"
+  ],
+  "models": {
+   "GR00T N1.5": [
+    82,
+    72,
+    63,
+    54,
+    21,
+    65,
+    84
+   ],
+   "GR00T N1.6": [
+    55.4,
+    46,
+    89,
+    5,
+    33,
+    73,
+    95
+   ],
+   "GR00T N1.7": [
+    78,
+    58,
+    53,
+    48,
+    2,
+    97,
+    100
+   ]
+  },
+  "averages": {
+   "GR00T N1.5": 63,
+   "GR00T N1.6": 56.628571428571426,
+   "GR00T N1.7": 62.285714285714285
+  },
+  "best_single": "GR00T N1.5",
+  "best_single_avg": 63,
+  "routed_avg": 75.28571428571429,
+  "gain": 12.285714285714292,
+  "routed": [
+   82,
+   72,
+   89,
+   54,
+   33,
+   97,
+   100
+  ],
+  "winners": [
+   [
+    "GR00T N1.5"
+   ],
+   [
+    "GR00T N1.5"
+   ],
+   [
+    "GR00T N1.6"
+   ],
+   [
+    "GR00T N1.5"
+   ],
+   [
+    "GR00T N1.6"
+   ],
+   [
+    "GR00T N1.7"
+   ],
+   [
+    "GR00T N1.7"
+   ]
+  ],
+  "sole_wins": {
+   "GR00T N1.5": 3,
+   "GR00T N1.6": 2,
+   "GR00T N1.7": 2
+  },
+  "wins_incl_ties": {
+   "GR00T N1.5": 3,
+   "GR00T N1.6": 2,
+   "GR00T N1.7": 2
+  },
+  "original4": {
+   "averages": {
+    "GR00T N1.5": 67.75,
+    "GR00T N1.6": 48.85,
+    "GR00T N1.7": 59.25
+   },
+   "best_single": "GR00T N1.5",
+   "best_single_avg": 67.75,
+   "routed_avg": 74.25,
+   "gain": 6.5,
+   "routed": [
+    82,
+    72,
+    89,
+    54
+   ],
+   "winners": [
+    [
+     "GR00T N1.5"
+    ],
+    [
+     "GR00T N1.5"
+    ],
+    [
+     "GR00T N1.6"
+    ],
+    [
+     "GR00T N1.5"
+    ]
+   ],
+   "sole_wins": {
+    "GR00T N1.5": 3,
+    "GR00T N1.6": 1,
+    "GR00T N1.7": 0
+   },
+   "wins_incl_ties": {
+    "GR00T N1.5": 3,
+    "GR00T N1.6": 1,
+    "GR00T N1.7": 0
+   }
+  }
+ },
+ "robotwin": {
+  "easy": {
+   "averages": {
+    "RDT": 34.5,
+    "π0": 46.42,
+    "ACT": 29.74,
+    "DP": 28.04,
+    "DP3": 55.24
+   },
+   "best_single": "DP3",
+   "best_single_avg": 55.24,
+   "routed_avg": 57.84,
+   "gain": 2.6000000000000014,
+   "sole_wins": {
+    "RDT": 2,
+    "π0": 12,
+    "ACT": 1,
+    "DP": 0,
+    "DP3": 34
+   },
+   "wins_incl_ties": {
+    "RDT": 2,
+    "π0": 12,
+    "ACT": 1,
+    "DP": 1,
+    "DP3": 35
+   }
+  },
+  "hard": {
+   "averages": {
+    "RDT": 13.72,
+    "π0": 16.34,
+    "ACT": 1.74,
+    "DP": 0.64,
+    "DP3": 4.96
+   },
+   "best_single": "π0",
+   "best_single_avg": 16.34,
+   "routed_avg": 19.7,
+   "gain": 3.3599999999999994,
+   "sole_wins": {
+    "RDT": 14,
+    "π0": 25,
+    "ACT": 0,
+    "DP": 0,
+    "DP3": 4
+   },
+   "wins_incl_ties": {
+    "RDT": 20,
+    "π0": 32,
+    "ACT": 2,
+    "DP": 2,
+    "DP3": 8
+   }
+  }
+ },
+ "libero": {
+  "averages": {
+   "OpenVLA-OFT": 97.1,
+   "π0": 94.15,
+   "π0-FAST": 85.5
+  },
+  "best_single": "OpenVLA-OFT",
+  "best_single_avg": 97.1,
+  "routed_avg": 97.2,
+  "gain": 0.10000000000000853,
+  "routed": [
+   97.6,
+   98.8,
+   97.9,
+   94.5
+  ],
+  "winners": [
+   [
+    "OpenVLA-OFT"
+   ],
+   [
+    "π0"
+   ],
+   [
+    "OpenVLA-OFT"
+   ],
+   [
+    "OpenVLA-OFT"
+   ]
+  ],
+  "sole_wins": {
+   "OpenVLA-OFT": 3,
+   "π0": 1,
+   "π0-FAST": 0
+  },
+  "wins_incl_ties": {
+   "OpenVLA-OFT": 3,
+   "π0": 1,
+   "π0-FAST": 0
+  }
+ }
+}

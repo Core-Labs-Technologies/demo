@@ -1,0 +1,9 @@
+.venv/
+.DS_Store
+raw/
+node_modules/
+video/node_modules/
+video/out/
+dist/
+video/public/footage/
+.claude/
